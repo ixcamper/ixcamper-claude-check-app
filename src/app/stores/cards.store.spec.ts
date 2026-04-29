@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { CardsStore, CardData } from './cards.store';
 
 describe('CardsStore', () => {
-	let store: CardsStore;
+	let store: InstanceType<typeof CardsStore>;
 
 	beforeEach(() => {
 		TestBed.configureTestingModule({
